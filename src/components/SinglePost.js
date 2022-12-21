@@ -13,8 +13,8 @@ function SinglePost() {
   return (
     <div>
       <h2>SinglePost</h2>
-      <h5>{data.title}</h5>
-      <h6>{data.body}</h6>
+      <h5>{data && data.title}</h5>
+      <h6>{data && data.body}</h6>
     </div>
   );
 }

@@ -9,8 +9,6 @@ function Posts() {
     getPosts();
   }, []);
 
-  console.log(data);
-
   return (
     <div>
       <h2>Posts</h2>
