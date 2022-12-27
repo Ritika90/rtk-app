@@ -3,7 +3,7 @@ import Posts from "components/Posts";
 import SinglePost from "components/SinglePost";
 import { ApiProvider } from "@reduxjs/toolkit/dist/query/react";
 import { api } from "api";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
